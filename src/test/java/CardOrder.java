@@ -30,7 +30,7 @@ public class CardOrder {
     }
 
     @Test
-    public void test(){
+    public void shouldCorrectData(){
         driver.get("http://localhost:9999");
         driver.findElement(By.cssSelector("[type=\"text\"]")).sendKeys("Москва");
         driver.findElement(By.cssSelector("[type=\"tel\"]")).sendKeys("+92776414167");

@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43f5eed8-2920-4d50-bb57-e7758aa6ea45" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/chromeDriver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromeDriver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CardOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CardOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673016889924</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update driver">
+      <created>1673017039130</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673017039130</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,6 +163,7 @@
     <MESSAGE value="update setUp" />
     <MESSAGE value="update setUp2" />
     <MESSAGE value="update setUp3" />
-    <option name="LAST_COMMIT_MESSAGE" value="update setUp3" />
+    <MESSAGE value="update driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="update driver" />
   </component>
 </project>

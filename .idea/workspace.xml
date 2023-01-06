@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673018339965</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update tests4">
+      <created>1673018831885</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673018831885</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,6 +192,7 @@
     <MESSAGE value="update tests" />
     <MESSAGE value="update tests2" />
     <MESSAGE value="update tests3" />
-    <option name="LAST_COMMIT_MESSAGE" value="update tests3" />
+    <MESSAGE value="update tests4" />
+    <option name="LAST_COMMIT_MESSAGE" value="update tests4" />
   </component>
 </project>

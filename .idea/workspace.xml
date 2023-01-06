@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43f5eed8-2920-4d50-bb57-e7758aa6ea45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.appveyor.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CardOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CardOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +41,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\idea\Selenium__web\artifacts" />
       <recent name="C:\idea\Selenium__web\driver" />
+      <recent name="C:\idea\Selenium__web\artifacts" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.CardOrder">

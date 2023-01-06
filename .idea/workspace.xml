@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43f5eed8-2920-4d50-bb57-e7758aa6ea45" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.appveyor.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CardOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CardOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,11 +112,27 @@
       <option name="project" value="LOCAL" />
       <updated>1673015433332</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update2 .appveyor.yml">
+      <created>1673015832382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673015832382</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update setUp">
+      <created>1673016019814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673016019814</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update .appveyor.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update .appveyor.yml" />
+    <MESSAGE value="update2 .appveyor.yml" />
+    <MESSAGE value="update setUp" />
+    <option name="LAST_COMMIT_MESSAGE" value="update setUp" />
   </component>
 </project>

@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.File;
+import java.util.Locale;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -19,12 +20,8 @@ public class CardOrder {
 
     @BeforeAll
     static void setUp() {  //метод в котором прописан путь для драйвера
-        String pathDriver = "src/main/resources/chromedriver.exe";
-        File file = new File(pathDriver.trim());
-        if (!file.canExecute()){
-            System.out.println("данного файла нет по пути: " + pathDriver);
-        }
-        file.setExecutable(true);
+        System.out.println(System.getProperty("os.name","generic").toLowerCase(Locale.ENGLISH));
+        String pathDriver = "src/main/resources/chromedriver";
        System.setProperty("webdriver.chrome.driver", pathDriver.trim());
 
 

@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43f5eed8-2920-4d50-bb57-e7758aa6ea45" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CardOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CardOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673023304877</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update tests9">
+      <created>1673023783402</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673023783402</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update tests10">
+      <created>1673023937193</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673023937193</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -228,6 +244,8 @@
     <MESSAGE value="update tests6" />
     <MESSAGE value="update tests7" />
     <MESSAGE value="update tests8" />
-    <option name="LAST_COMMIT_MESSAGE" value="update tests8" />
+    <MESSAGE value="update tests9" />
+    <MESSAGE value="update tests10" />
+    <option name="LAST_COMMIT_MESSAGE" value="update tests10" />
   </component>
 </project>

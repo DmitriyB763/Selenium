@@ -1,5 +1,6 @@
 
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -20,21 +21,18 @@ public class CardOrder {
 
     @BeforeAll
     static void setUp() {  //метод в котором прописан путь для драйвера
-        System.out.println(System.getProperty("os.name","generic").toLowerCase(Locale.ENGLISH));
-        String pathDriver = "src/main/resources/chromedriver";
-        File file = new File(pathDriver.trim());
-        if (!file.canExecute()){
-            System.out.println("данного файла нет по пути: " + pathDriver);
-        }
-        file.setExecutable(true);
-       System.setProperty("webdriver.chrome.driver", pathDriver.trim());
+        WebDriverManager.chromedriver().setup();
 
 
     }
 
     @BeforeEach
-    void setUp2() {
-        driver = new ChromeDriver();
+    void setUp2() {    // запускается перед каждым тестом
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
     }
 
     @AfterEach  //после тестов закрыть все окна и ожидать

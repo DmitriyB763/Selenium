@@ -22,6 +22,11 @@ public class CardOrder {
     static void setUp() {  //метод в котором прописан путь для драйвера
         System.out.println(System.getProperty("os.name","generic").toLowerCase(Locale.ENGLISH));
         String pathDriver = "src/main/resources/chromedriver";
+        File file = new File(pathDriver.trim());
+        if (!file.canExecute()){
+            System.out.println("данного файла нет по пути: " + pathDriver);
+        }
+        file.setExecutable(true);
        System.setProperty("webdriver.chrome.driver", pathDriver.trim());
 
 

@@ -17,7 +17,7 @@ public class CardOrder {
 
     @BeforeAll
     static void setUp() {  //метод в котором прописан путь для драйвера
-       System.setProperty("webdriver.chrome.driver", "chromeDriver/chromedriver.exe");
+       System.setProperty("user.dir", "chromeDriver/chromedriver.exe");
     }
 
     @BeforeEach

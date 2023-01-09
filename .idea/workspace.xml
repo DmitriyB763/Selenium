@@ -7,7 +7,7 @@
     <list default="true" id="43f5eed8-2920-4d50-bb57-e7758aa6ea45" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appveyor.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CardOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CardOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       <recent name="C:\idea\Selenium__web\artifacts" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CardOrder">
+  <component name="RunManager" selected="Gradle.CardOrder.shouldInvalidNumber">
     <configuration name="CardOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -75,7 +75,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CardOrder.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CardOrder.shouldDoNotClickTheCheckbox" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -88,7 +88,76 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;CardOrder.test&quot;" />
+            <option value="&quot;CardOrder.shouldDoNotClickTheCheckbox&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CardOrder.shouldInvalidNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;CardOrder.shouldInvalidNumber&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CardOrder.shouldMissingNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;CardOrder.shouldMissingNumber&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CardOrder.shuoldMissingName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;CardOrder.shuoldMissingName&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -100,8 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CardOrder.shouldInvalidNumber" />
         <item itemvalue="Gradle.CardOrder" />
-        <item itemvalue="Gradle.CardOrder.test" />
+        <item itemvalue="Gradle.CardOrder.shouldDoNotClickTheCheckbox" />
+        <item itemvalue="Gradle.CardOrder.shouldMissingNumber" />
+        <item itemvalue="Gradle.CardOrder.shuoldMissingName" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673094600123</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update tests14">
+      <created>1673095592786</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673095592786</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -270,6 +349,7 @@
     <MESSAGE value="update tests11" />
     <MESSAGE value="update tests12" />
     <MESSAGE value="update tests13" />
-    <option name="LAST_COMMIT_MESSAGE" value="update tests13" />
+    <MESSAGE value="update tests14" />
+    <option name="LAST_COMMIT_MESSAGE" value="update tests14" />
   </component>
 </project>
